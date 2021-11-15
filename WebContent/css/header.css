@@ -1,0 +1,22 @@
+* {
+	margin: 10px;
+	font-family: "Times New Roman", Times, serif";
+	
+}
+h1 {
+	margin:0px;
+}
+
+h1 #stars {
+	color: yellow;
+	font-size: 60 px;
+}
+
+.enlaces {
+	
+	margin:20px;
+	position: absolute;
+    top: 20%;
+    left:0%;
+	
+}
