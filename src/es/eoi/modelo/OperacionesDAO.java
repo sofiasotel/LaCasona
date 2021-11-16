@@ -24,7 +24,7 @@ public class OperacionesDAO {
 	// dara el alta del registro en la tabla de reserva y actualizara el dato en
 	// tabla Habitacion
 
-	public static int reserva(String fecha_reserva, String fecha_entrada,String fecha_salida, int num_personas, int cliente_id, String tipohab) throws SQLException {
+	public int reserva(String fecha_reserva, String fecha_entrada,String fecha_salida, int num_personas, int cliente_id, String tipohab) throws SQLException {
 
 		int ret = 1;
 		Date fechaEntrada = null;
